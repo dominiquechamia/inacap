@@ -1,0 +1,219 @@
+/* ajustes titulos */
+h1 {
+    font-family: 'Effra', sans-serif;
+    color: #333333;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 70px;
+    padding-left: 60px;
+}
+
+/* ajustes barra inferior titulo locomocion */
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* simulacion pie de pagina */
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* ajustes seccion direccion */
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 23px;
+    text-align: center;
+}
+
+/* ajustes texto seccion inferior */
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: left;
+}
+
+/* ajustes cuerpo de pagina */
+body {
+    margin: 0;
+    padding: 0; 
+    background-color: #F5EDFF; 
+}
+
+/* ajustes de la barra de navegacion */
+.navbar {
+    font-family: 'Effra', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    background-color: #F7F7F7;
+    height: 80px;
+    position: fixed; 
+    width: 100%;
+    display: flex;
+    font-weight: 900;
+}
+
+/* ajustes  lista no ordenada */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 25px;
+    padding-left: 80px;
+}
+
+/* ajustes  elementos dentro de la lista no ordenada */
+.navbar ul li {
+    display: inline;
+}
+
+/* ajustes titulos barra navegacion */
+.navbar ul li a {
+    color: #333333;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 50%;
+    padding-right: 85px;
+}
+
+/* ajustes logo barra navegacion */
+.logo {
+    height: 60px;
+    width: 56.0625px;
+    padding-top: 10px;
+    padding-left: 110px;
+}
+
+/* ajustes iconos de la barra de navegacion */
+.navbar a .icono {
+    margin-right: 20px;
+    width: 25px; 
+    height: 25px;
+}
+
+/* ajustes imagen que simula slider (no lo hice) */
+.deslizar {
+    width: 100%;
+    padding-top: 80px;
+}
+
+/* ajustes imagenes seccion tiendas */
+.tiendas, .panoramas {
+    width: 306px;
+    padding-right: 15px;
+    padding-top: 35px;
+}
+
+/* ajustes imagenes seccion panoramas */
+.panoramas2 {
+    width: 306px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+/* parte inferior de la pagina */
+.inferior {
+    position:static;
+    height:560px;
+    width:100%;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:-1;
+    background-color: #3A328A;
+}
+
+/* ajuste extra titulos barra navegacion */
+.titulos {
+    padding-left: 200px;
+}
+
+/* ajustes imagenes de los buses de la locomocion */
+.buses {
+    width: 306px;
+    padding-right: 15px;
+}
+
+/* ajustes secciones de la division inferior */
+.secciones {
+    display: flex;
+}
+
+/* ajuste detalle "lunes a domingo" y estacionamiento*/
+.inferior .secciones .seccion2 ul li {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* ajustes seccion 1 "direccion" */
+.seccion1 {
+    margin-left: 80px;
+}
+
+/* ajustes seccion 2 "horario" */
+.seccion2 {
+  margin-left: 100px;
+  line-height: 50%;
+}
+
+/* ajustes seccion 3 "contacto" */
+.seccion3 {
+    margin-left: 170px;
+    line-height: 8px;
+}
+  
+/* color iconos parte inferior */
+.inferior .secciones .seccion3 p i {
+    color: #F7F7F7;
+}
+
+/* ajustes mapa ubicacion seccion direccion */
+.map {
+    width: 390px;
+    height: 90px;
+    border:0;
+}
+
+/* ajustes fondo icono facebook */
+.icon-facebook {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 20%;
+    padding: 6%;
+    z-index: -1;
+}
+
+/* ajustes icono facebook */
+.icon-facebook .fab.fa-facebook {
+    color:#3A328A;
+    z-index: 1;
+    font-size: 25px;
+}
+
+/* ajustes fondo icono instagram */
+.icon-instagram {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 20%;
+    padding: 6%;
+    z-index: -1;
+}
+
+/* ajutes icono instagram */
+.icon-instagram .fab.fa-instagram {
+    color:#3A328A;
+    z-index: 1;
+    font-size: 25px;
+}
